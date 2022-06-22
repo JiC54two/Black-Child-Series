@@ -15,18 +15,30 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 """
     HELP_TXT = """𝙷𝙴𝚈  {}  🙋🏻🙋🏻‍♀️
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: <a href=https://t.me/JNS_BOTS>{}</a> 
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/jns_bots>ＪƝ⟆ ᗷ〇Ƭ⟆</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
-    SOURCE_TXT = """
-<b>DEVS:</b>
-- <a href=https://t.me/JNS_BOTS>ＪƝ⟆ ᗷ〇Ƭ⟆</a>
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
+    ABOUT_TXT = """<b>♠️ MY NAME: {}</b>
+<b>♣️ OWNED BY:</b> <a href=https://t.me/JiC54_SERIES_Bot>Click Here!</a>
+<b>♣️ LANGUAGE:</b> 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+<b>♣️ DATABASE:</b> 𝙼𝙾𝙽𝙶𝙾
+<b>♣️ BOT SERVER:</b> 𝙷𝙴𝚁𝙾𝙺𝚄
+<b>♣️ 𝙱OT VERSION:</b> <code>12.2.1</code>"""
+    SOURCE_TXT = """<b>JiC54 CHANNELS:</b> 
+    
+<a href=https://t.me/+H_6j47erCp44YjY0>Movies and Series 2022</a>
+<a href=https://t.me/+uQBJ5JaaLpgyMWI0>House of Movies</a>
+<a href=https://t.me/+EHBqUrMHnglmZWY8>Dax songs</a>
+<a href=https://t.me/+8eC2YwzHZtUwZDg0>DC Series</a>
+<a href=https://t.me/+GvVfP9p-YAsyMTY0>Marvel Movies</a>
+<a href=https://t.me/+6QrMOpOVtKAxOGQ0>African Movies</a>
+<a href=https://t.me/+LhZuWiqE21NiYzY0>WWE wrestling</a>
+
+<b>JiC54 GROUPS:</b>
+<a href=https://t.me/+dFGzJDTQWow2ZGY8>Request Movies</a>
+<a href=https://t.me/+bCTNQn4-5TtkZmZk>Request Series</a>
+<a href=https://t.me/+gTYFpj1ZBIIxZTQ0>Request Dax Songs</a>
+<b>JiC54 BOTS:</b>
+<a href=http://t.me/JiC54_MOVIES_Bot>Movies Bot</a>
+<a href=http://t.me/JiC54SeriesBot>Series Bot</a>
+<a href=http://t.me/filestolinks1_bot>File to Links Bot</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and I will respond whenever a keyword is found the message
 <b>NOTE:</b>
