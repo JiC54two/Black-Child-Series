@@ -21,8 +21,8 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming & ~filters.edited)
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
-        fmsg = await message.reply_to_message(
-            'HIE!'),
+        fmsg = await message.reply_markup(
+            'Hie',
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
