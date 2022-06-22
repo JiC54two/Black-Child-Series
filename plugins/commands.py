@@ -21,8 +21,8 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming & ~filters.edited)
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
-        fmsg = await message.reply_sticker(
-            'CAACAgUAAxkBAAEBHLhilcHI9LGFiorY11Cb41HiOT8XxgACbAYAAr4GsFT_LGNUHw4NliQE',
+        fmsg = await message.reply_to_message(
+            'HIE!',
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
@@ -100,12 +100,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍Search🔍', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📢JiC54📢', callback_data='source')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('🛠Tools🛠', callback_data='help'),
+            InlineKeyboardButton('❕About❕', callback_data='about')
              ],[
-            InlineKeyboardButton('2022 Movies $ Series', url='https://t.me/+K1Z4kS0Cf8c3ZDU0')
+            InlineKeyboardButton('📁File Store📁', callback_data='batch1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -371,7 +372,7 @@ async def delete_all_index(bot, message):
 @Client.on_callback_query(filters.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
-    await message.answer('Piracy Is Crime')
+    await message.answer('🆗')
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
 

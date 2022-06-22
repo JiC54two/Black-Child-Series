@@ -52,8 +52,7 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 <b>Commands and Usage:</b>
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+• /del - <code>delete a specific filter in chat</code>"""
 
     BUTTON_TXT = """<b>Buttons</b>
 - <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> Supports both url and alert inline buttons.
