@@ -1,7 +1,10 @@
 class script(object):
-    START_TXT = """HELLO {}  🙋🏻🙋🏻‍♀️
-I can provide movies in group as well as the personal chat, send me movie name / ADD me to group and enjoy
-I delete all messgaes in groups for restrict group from coppyrights issues ( 5min default delete time)
+    START_TXT = """<b>HELLO {},
+MY NAME IS <a href=https://t.me/{}>{}</a>, I PROVIDE SERIES. JUST ADD ME TO YOUR GROUP AND ENJOY!😍
+OR JUST PM THE SERIES NAME</b>
+
+<B><U>NOTE</U></B>
+Messages will disappear after 30 Minutes
 """
     START_grp_TXT = """
     Hai..,
@@ -13,8 +16,7 @@ I can provide movies in group as well as the personal. ADD me to your group as a
 I can provide movies/ series, just send movie name to me or you can add me to your group
 I delete all messgaes in groups for restrict group from coppyrights issues ( 5min default delete time)
 """
-    HELP_TXT = """𝙷𝙴𝚈  {}  🙋🏻🙋🏻‍♀️
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>♠️ MY NAME: {}</b>
 <b>♣️ OWNED BY:</b> <a href=https://t.me/JiC54_SERIES_Bot>Click Here!</a>
 <b>♣️ LANGUAGE:</b> 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
@@ -72,14 +74,16 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
  I'll add all the files in that channel to my database."""
     
     
-    BATCHMODE1_TXT = """Help: <b>File Store</b>
+    BATCHMODE1_TXT = """<b>File Store</b>
   
 With this feature a user generates special sharable links of files.
-<b>How to generate links? 🙄</b>
-1. For a single file use /link command as reply to file.\
-2. For creating batch files , use /batch <starting message link> <ending message link>.
-Example: /batch https://t.me/teamEvaMaria/2 https://t.me/teamEvaMaria/9
-<b>NOTE:</b>
+
+<b><u>How to generate links? 🙄</u></b>
+1. For a single file use <code>/link command as reply to file</code>
+2. For creating batch files , use <code>/batch <starting message link> <ending message link></code>
+Example: <code>/batch https://t.me/JiC54_dax/10 https://t.me/JiC54_dax/20</code>
+
+<b><u>NOTE:</u></b>
 1. Works in both Private and Public channel
  ✤ Make the bot admin in private channel
  ✤ Admin Privilege not required for public channel
@@ -102,33 +106,33 @@ Example: /batch https://t.me/teamEvaMaria/2 https://t.me/teamEvaMaria/9
 These are the extra features of <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 MOVIES Bot</a>
 
 <b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
-• /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+• <code>/id</code> - get id of a specified user.
+• <code>/info</code>  - <code>get information about a user.</code>
+• <code>/imdb</code>  - <code>get the film information from IMDb source.</code>
+• <code>/search</code>  - <code>get the film information from various sources.</code>"""
     ADMIN_TXT = """<b>Admin mods</b>
 
 This module only works for my admins
 
 <b>Commands and Usage:</b>
-• /logs - <code>to get the rescent errors</code>
-• /stats - <code>to get status of files in db.</code>
-• /delete - <code>to delete a specific file from db.</code>
-• /users - <code>to get list of my users and ids.</code>
-• /chats - <code>to get list of the my chats and ids </code>
-• /leave  - <code>to leave from a chat.</code>
-• /disable  -  <code>do disable a chat.</code>
-• /ban  - <code>to ban a user.</code>
-• /unban  - <code>to unban a user.</code>
-• /channel - <code>to get list of total connected channels</code>
-• /broadcast - <code>to broadcast a message to all users</code>
+• <code>/logs</code> - to get the rescent errors
+• <code>/stats</code> - to get status of files in db.
+• <code>/delete</code> - to delete a specific file from db.
+• <code>/users</code> - to get list of my users and ids.
+• <code>/chats</code> - to get list of the my chats and ids.
+• <code>/leave</code>  - to leave from a chat.
+• <code>/disable</code>  -  do disable a chat.
+• <code>/ban</code>  - to ban a user.
+• <code>/unban</code>  - to unban a user.
+• <code>/channel</code> - to get list of total connected channels.
+• <code>/broadcast</code> - to broadcast a message to all users.
 """
-    STATUS_TXT = """★ TOTAL USERS: <code>{}</code>
-★ TOTAL CHATS: <code>{}</code>
-★ TOTAL FILES <code>{}</code>
-★ USED RAM: <code>{}</code> 
-★ FREE RAM: <code>{}</code>
-★ TOTAL RAM: <code>512MB</code>"""
+    STATUS_TXT = """<b>★ TOTAL USERS:</b> <code>{}</code>
+<b>★ TOTAL CHATS:</b> <code>{}</code>
+<b>★ TOTAL FILES:</b> <code>{}</code>
+<b>★ USED RAM:</b> <code>{}</code> 
+<b>★ FREE RAM:</b> <code>{}</code>
+<b>★ TOTAL RAM:</b> <code>512MB</code>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
