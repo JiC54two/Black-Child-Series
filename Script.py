@@ -73,42 +73,43 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
  I'll add all the files in that channel to my database."""
     
     
-    BATCHMODE1_TXT = """<b>File Store</b>
-  
-With this feature a user generates special sharable links of files.
+    BATCHMODE1_TXT = """<b>FILE STORE</b>
+  With this feature a user generates special sharable links of files.
 
 <b><u>How to generate links? 🙄</u></b>
 1. For a single file use <code>/link command as reply to file</code>
 2. For creating batch files , use <code>/batch <starting message link> <ending message link></code>
 Example: <code>/batch https://t.me/JiC54_dax/10 https://t.me/JiC54_dax/20</code>
 
-<b><u>NOTE:</u></b>
+<b><u>NOTE</u></b>
 1. Works in both Private and Public channel
  ✤ Make the bot admin in private channel
  ✤ Admin Privilege not required for public channel
 2. Only videos, audios and documents are supported for now."""
     
     
-    CONNECTION_TXT = """<b>Connections</b>
+    CONNECTION_TXT = """<b>CONNECTIONS</b>
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
 
-<b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> to connect <a href=https://t.me/JiC54_MOVIES_Bot>me</a> to ur PM
-<b>Commands and Usage:</b>
+<b>COMMANDS & USAGE</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
-    EXTRAMOD_TXT = """<b>Extra Modules</b>
+• /connections - <code>list all your connections</code>
+• /settings - <code>customise your group's settings</code>
+
+<b><u>NOTE</u></b>
+1. Only admins can add a connection.
+2. Send <code>/connect</code> to connect <a href=https://t.me/JiC54_MOVIES_Bot>me</a> to ur PM"""
+    EXTRAMOD_TXT = """<b>EXTRA MODULES</b>
 
 These are the extra features of <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 MOVIES Bot</a>
 
-<b>Commands and Usage:</b>
-• <code>/id</code> - get id of a specified user.
-• <code>/info</code>  - <code>get information about a user.</code>
-• <code>/imdb</code>  - <code>get the film information from IMDb source.</code>
-• <code>/search</code>  - <code>get the film information from various sources.</code>"""
+<b>COMMANDS & USAGE</b>
+• /id  - get id of a specified user.
+• /info  - get information about a user.
+• /imdb  - get the film information from IMDb source.
+• /search  - get the film information from various sources."""
     ADMIN_TXT = """<b>Admin mods</b>
 
 This module only works for my admins
@@ -138,10 +139,9 @@ Total Members = <code>{}</code>
 Added By - {}
 (@JiC54SeriesBot)
 """
-    LOG_TEXT_P = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+    LOG_TEXT_P = """#NewUser
+User ID = {}(<code>{}</code>)
+Username = <code>{}</code>
 (@JiC54SeriesBot)
 """
     MAIL_ID_TXT = """
