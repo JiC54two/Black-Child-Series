@@ -21,16 +21,17 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming & ~filters.edited)
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
-        fmsg = await message.reply_text('Hie',
-            reply_markup=InlineKeyboardMarkup(
+        fmsg = await message.reply_text('HELLO, \n I PROVIDE SERIES. JUST SEND SERIES NAME HERE OR PM THE SERIES NAME.\n ',
+                reply_markup=InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('❔HOW TO REQUEST MOVIES❔', url='http://t.me/MissRose_bot?start=notes_-1001280599555_1283981')
                 ],
                 [
-                    InlineKeyboardButton('🎈ᴀʙᴏᴜᴛ🎈', callback_data='aboutgroup')
-                ],
-                [
-                    InlineKeyboardButton('🧨ᴄʟᴏsᴇ🧨', callback_data='close_data')
+                    InlineKeyboardButton('❕ABOUT❕', callback_data='about'),
+                    InlineKeyboardButton('✖️CLOSE✖️', callback_data='close_data')
+                    ],
+                    [
+            InlineKeyboardButton('🔍Search Inline🔍', switch_inline_query_current_chat='')
                 ]]
             )
         )
