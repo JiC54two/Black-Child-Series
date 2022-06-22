@@ -40,7 +40,8 @@ Messages will be auto deleted after 5Minutes
 <a href=http://t.me/JiC54_MOVIES_Bot>Movies Bot</a>
 <a href=http://t.me/JiC54SeriesBot>Series Bot</a>
 <a href=http://t.me/filestolinks1_bot>File to Links Bot</a>"""
-   MANUELFILTER_TXT = """Help: <b>Filters</b>
+    
+   MANUELFILTER_TXT = """<b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and this bot will respond whenever a keyword is found the message
 
@@ -53,9 +54,9 @@ Messages will be auto deleted after 5Minutes
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+• /delall - <code>delete the whole filters in a chat (chat owner only)</code> """
 
-    BUTTON_TXT = """Help: <b>Buttons</b>
+    BUTTON_TXT = """<b>Buttons</b>
 
 - <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> Supports both url and alert inline buttons.
 
