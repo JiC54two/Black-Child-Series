@@ -46,6 +46,7 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 1. <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
+
 <b>Commands and Usage:</b>
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
@@ -62,50 +63,40 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 <code>[Button Text](buttonurl:https://t.me/JiC54_MOVIES_Bot)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    BUTTON_TXT = """Help: <b>Buttons</b>
-- Supports both url and alert inline buttons.
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
-<b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
+    
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 <b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db.
- ❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
+1. Make <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> the admin of your channel if it's private.
+2. make sure that your channel does not contains CAMRips, porn and fake files.
+3. Forward the last message to <a href=https://t.me/JiC54_MOVIES_Bot>me</a> with quotes.
+ I'll add all the files in that channel to my database."""
     
     
-    BATCHMODE1_TXT = """Help: <b>Batch mode</b>
+    BATCHMODE1_TXT = """Help: <b>File Store</b>
   
-  This feature user can generate special links to send files like movies. store files in a public channel and send me <code> /batch https://t.me/jns_bots/20 https://t.me/jns_bots/30 </code> . i will generate and send you special link.
+With this feature a user generates special sharable links of files.
+<b>How to generate links? 🙄</b>
+1. For a single file use /link command as reply to file.\
+2. For creating batch files , use /batch <starting message link> <ending message link>.
+Example: /batch https://t.me/teamEvaMaria/2 https://t.me/teamEvaMaria/9
 <b>NOTE:</b>
-1.Works in both Private and Public channel
- ✤ Make me in admin in private channel
- ✤ Admin Privilege not req for public channel 
-<b>Commands and Usage:</b>
- • /batch - To start batch mode  
- 
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
+1. Works in both Private and Public channel
+ ✤ Make the bot admin in private channel
+ ✤ Admin Privilege not required for public channel
+2. Only videos, audios and documents are supported for now."""
     
     
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """<b>Connections</b>
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
+
 <b>NOTE:</b>
 1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+2. Send <code>/connect</code> to connect <a href=https://t.me/JiC54_MOVIES_Bot>me</a> to ur PM
 <b>Commands and Usage:</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
+• /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
 these are the extra features 
