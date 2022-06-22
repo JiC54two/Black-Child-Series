@@ -21,7 +21,7 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming & ~filters.edited)
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
-        fmsg = await message.reply_markup(
+        fmsg = await message.reply_text(
             'Hie',
             reply_markup=InlineKeyboardMarkup(
                 [[
