@@ -97,18 +97,19 @@ Example: /batch https://t.me/teamEvaMaria/2 https://t.me/teamEvaMaria/9
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
-<b>NOTE:</b>
-these are the extra features 
+    EXTRAMOD_TXT = """<b>Extra Modules</b>
+
+These are the extra features of <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 MOVIES Bot</a>
+
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
-    ADMIN_TXT = """Help: <b>Admin mods</b>
-<b>NOTE:</b>
+• /search  - <code>get the film information from various sources.</code>"""
+    ADMIN_TXT = """<b>Admin mods</b>
+
 This module only works for my admins
+
 <b>Commands and Usage:</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
@@ -121,23 +122,24 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱 
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱 
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
+"""
+    STATUS_TXT = """★ TOTAL USERS: <code>{}</code>
+★ TOTAL CHATS: <code>{}</code>
+★ TOTAL FILES <code>{}</code>
+★ USED RAM: <code>{}</code> 
+★ FREE RAM: <code>{}</code>
+★ TOTAL RAM: <code>512MB</code>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥
+(@JiC54SeriesBot)
 """
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥
+    LOG_TEXT_P = """#NewGroup
+Group = {}(<code>{}</code>)
+Total Members = <code>{}</code>
+Added By - {}
+(@JiC54SeriesBot)
 """
     MAIL_ID_TXT = """
     <b>Currently you are using this mail for heroku account</b>\n
