@@ -39,18 +39,29 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 <a href=http://t.me/JiC54_MOVIES_Bot>Movies Bot</a>
 <a href=http://t.me/JiC54SeriesBot>Series Bot</a>
 <a href=http://t.me/filestolinks1_bot>File to Links Bot</a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and I will respond whenever a keyword is found the message
+    MANUELFILTER_TXT = """<b>Filters</b>
+- Filter is the feature were users can set automated replies for a particular keyword and this bot will respond whenever a keyword is found the message
+
 <b>NOTE:</b>
-1. I should have admin privillage.
+1. <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 <b>Commands and Usage:</b>
 • /filter - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>
-❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥"""
+• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+
+    BUTTON_TXT = """<b>Buttons</b>
+- <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> Supports both url and alert inline buttons.
+<b>NOTE:</b>
+1. Telegram will not allow you to send buttons without any content, so content is mandatory.
+2. <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> supports buttons with any telegram media type.
+3. Buttons should be properly parsed as markdown format
+<b>URL buttons:</b>
+<code>[Button Text](buttonurl:https://t.me/JiC54_MOVIES_Bot)</code>
+<b>Alert buttons:</b>
+<code>[Button Text](buttonalert:This is an alert message)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 - Supports both url and alert inline buttons.
 <b>NOTE:</b>
