@@ -118,7 +118,7 @@ async def who_is(client, message):
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ],
         [
-            InlineKeyboardButton('❤️‍🔥ＪƝ⟆ ᗷ〇Ƭ⟆❤️‍🔥', url='https://t.me/jns_bots')
+            InlineKeyboardButton('JiC54', url='https://t.me/jic54')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(

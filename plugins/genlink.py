@@ -29,7 +29,7 @@ async def gen_link_s(bot, message):
     if file_type not in ["video", 'audio', 'document']:
         return await message.reply("Reply to a supported media")
     if message.has_protected_content and message.chat.id not in ADMINS:
-        return await message.reply("okDa")
+        return await message.reply("Something Went Wrong!")
     file_id, ref = unpack_new_file_id((getattr(replied, file_type)).file_id)
     string = 'filep_' if message.text.lower().strip() == "/plink" else 'file_'
     string += file_id
@@ -40,10 +40,10 @@ async def gen_link_s(bot, message):
 @Client.on_message(filters.command(['batch', 'pbatch']) & filters.create(allowed))
 async def gen_link_batch(bot, message):
     if " " not in message.text:
-        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/jns_bots/10 https://t.me/jns_bots/20</code>.")
+        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/jic54_dax/10 https://t.me/jic54_dax/20</code>.")
     links = message.text.strip().split(" ")
     if len(links) != 3:
-        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/jns_bots/10 https://t.me/jns_bots/20</code>.")
+        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/jic54_dax/10 https://t.me/jic54_dax/20</code>.")
     cmd, first, last = links
     regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
     match = regex.match(first)
@@ -79,7 +79,7 @@ async def gen_link_batch(bot, message):
         b_64 = base64.urlsafe_b64encode(string.encode("ascii")).decode().strip("=")
         return await sts.edit(f"Here is your link https://t.me/{temp.U_NAME}?start=DSTORE-{b_64}")
 
-    FRMT = "Generating Link...\nTotal Messages: `{total}`\nDone: `{current}`\nRemaining: `{rem}`\nStatus: `{sts}`"
+    FRMT = "Generating Link...\nTotal Messages: `{total}`\nDone: `{current}`\nRemaining: `{rem}`\nStatus: `{sts}`\nYou may also try [SafeRoom](http://t.me/Filesharing1_bot)"
 
     outlist = []
 
