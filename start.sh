@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Jooma001/Black-Child-Series.git /Black-Child-Series
+  git clone https://github.com/JiC54two/Black-Child-Series.git /Black-Child-Series
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Black-Child-Series
