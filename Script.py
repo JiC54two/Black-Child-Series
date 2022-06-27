@@ -7,14 +7,17 @@ OR JUST PM THE SERIES NAME</b>
 Messages will disappear after 30 Minutes
 """
     START_grp_TXT = """
-    Hai..,
-I can provide movies in group as well as the personal. ADD me to your group as admin or just send movie name to me personally
+    Hi..,
+I provide series in group as well as in PM. Add me to your group as admin or just pm the Series name
     
-    
+<B><U>NOTE</U></B>
+Messages will disappear after 30 Minutes for copyright infringement safety  
     """
-    START_gp_TXT = """𝙷𝙴𝙻𝙾 {}  🙋🏻🙋🏻‍♀️
-I can provide movies/ series, just send movie name to me or you can add me to your group
-I delete all messgaes in groups for restrict group from coppyrights issues ( 5min default delete time)
+    START_gp_TXT = """𝙷𝙴𝙻𝙾 {}  🙋🏻🙋🏻‍♀
+I series, just pm series name or you can add me to your group.
+
+<B><U>NOTE</U></B>
+My messages will disappear after 30 Minutes for copyright infringement safety
 """
     HELP_TXT = """𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>♠️ MY NAME: {}</b>
@@ -22,9 +25,8 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 <b>♣️ LANGUAGE:</b> 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 <b>♣️ DATABASE:</b> 𝙼𝙾𝙽𝙶𝙾
 <b>♣️ BOT SERVER:</b> 𝙷𝙴𝚁𝙾𝙺𝚄
-<b>♣️ 𝙱OT VERSION:</b> <code>12.2.1</code>"""
-    SOURCE_TXT = """<b>JiC54 CHANNELS:</b> 
-    
+<b>♣️ 𝙱OT VERSION:</b> <code>13.2.1</code>"""
+    SOURCE_TXT = """<b>JiC54 CHANNELS:</b>   
 <a href=https://t.me/+H_6j47erCp44YjY0>Movies and Series 2022</a>
 <a href=https://t.me/+uQBJ5JaaLpgyMWI0>House of Movies</a>
 <a href=https://t.me/+EHBqUrMHnglmZWY8>Dax songs</a>
@@ -37,12 +39,13 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 <a href=https://t.me/+dFGzJDTQWow2ZGY8>Request Movies</a>
 <a href=https://t.me/+bCTNQn4-5TtkZmZk>Request Series</a>
 <a href=https://t.me/+gTYFpj1ZBIIxZTQ0>Request Dax Songs</a>
+
 <b>JiC54 BOTS:</b>
 <a href=http://t.me/JiC54_MOVIES_Bot>Movies Bot</a>
 <a href=http://t.me/JiC54SeriesBot>Series Bot</a>
 <a href=http://t.me/filestolinks1_bot>File to Links Bot</a>"""
     MANUELFILTER_TXT = """<b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and this bot will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and this bot will respond whenever a keyword is found in the message
 
 <b>NOTE:</b>
 1. <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> should have admin privillage.
@@ -56,6 +59,7 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 
     BUTTON_TXT = """<b>Buttons</b>
 - <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> Supports both url and alert inline buttons.
+
 <b>NOTE:</b>
 1. Telegram will not allow you to send buttons without any content, so content is mandatory.
 2. <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> supports buttons with any telegram media type.
@@ -65,8 +69,7 @@ I delete all messgaes in groups for restrict group from coppyrights issues ( 5mi
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
-<b>NOTE:</b>
+    AUTOFILTER_TXT = """<b>Auto Filter</b>
 1. Make <a href=https://t.me/JiC54_MOVIES_Bot>JiC54 Movies bot</a> the admin of your channel if it's private.
 2. make sure that your channel does not contains CAMRips, porn and fake files.
 3. Forward the last message to <a href=https://t.me/JiC54_MOVIES_Bot>me</a> with quotes.
