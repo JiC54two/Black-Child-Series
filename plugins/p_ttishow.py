@@ -154,7 +154,7 @@ async def get_ststs(bot, message):
     rju4 = await rju3.edit('▣▣▣▣▢▢')
     rju5 = await rju4.edit('▣▣▣▣▣▢')
     rju6 = await rju5.edit('▣▣▣▣▣▣')
-    await rju6.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
+    await rju6.edit(script.STATUS_TXT.format(total_users, totl_chats, files, size, free))
 
 
 # a function for trespassing into others groups, Inspired by a Vazha
@@ -228,9 +228,9 @@ async def unban_a_user(bot, message):
     try:
         k = await bot.get_users(chat)
     except PeerIdInvalid:
-        return await message.reply("This is an invalid user, make sure ia have met him before.")
+        return await message.reply("This is an invalid user, make sure i have met him before.")
     except IndexError:
-        return await message.reply("Thismight be a channel, make sure its a user.")
+        return await message.reply("This might be a channel, make sure its a user.")
     except Exception as e:
         return await message.reply(f'Error - {e}')
     else:
