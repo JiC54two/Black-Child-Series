@@ -585,7 +585,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         await query.message.edit_text(
-            text=script.STATUS_TXT.format(total, users, chats, monsize, free),
+            text=script.STATUS_TXT.format(users, chats, total, monsize, free),
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -606,7 +606,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         await query.message.edit_text(
-            text=script.STATUS_TXT.format(users, chats,total, monsize, free),
+            text=script.STATUS_TXT.format(users, chats, total, monsize, free),
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -833,13 +833,13 @@ async def advantage_spell_chok(msg):
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
     zz = await msg.reply(' I couldnt find anything related to that, just a sec looking for IMDB suggestions  🧐')
-    await asyncio.sleep(3)
-    zz1 = await zz.edit("Did you mean any one of these?  🤓",
+    await asyncio.sleep(5)
+    zz1 = await zz.edit("Did you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(10)
-    zz2 = await zz1.edit('check whether it is released or Request as per format 👺')
+    zz2 = await zz1.edit('Check whether it is released, if it is, mention @admin to get it added to the database')
     
-    await asyncio.sleep(5)
+    await asyncio.sleep(10)
     await zz2.delete()
     await msg.delete()
 
