@@ -33,7 +33,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
+DATABASE_NAME = environ.get('DATABASE_NAME', "JiC54")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -41,7 +41,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'JiC54')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_caption}</code>\n<b><a href='https://t.me/+K1Z4kS0Cf8c3ZDU0'>Movies</a> | <a href='https://t.me/+DOvLtPVH3wllNDZk'>Series</a> | <a href='https://t.me/+EHBqUrMHnglmZWY8'>Songs</a> | <a href='https://t.me/+LhZuWiqE21NiYzY0'>WWE</a></b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>{title} [{year}]</b>\n\n🌟𝗥𝗮𝘁𝗶𝗻𝗴: {rating}/10 (based on {votes} user ratings.)\n⏰𝗥𝘂𝗻𝗧𝗶𝗺𝗲: <code>{runtime} Min/Episode</code>\n🎭𝗚𝗲𝗻𝗿𝗲: {genres}\n♨️𝗡𝗼. 𝗼𝗳 𝗦𝗲𝗮𝘀𝗼𝗻𝘀: {seasons}\n📜𝗦𝘁𝗼𝗿𝘆 𝗟𝗶𝗻𝗲: <a href={url}/plotsummary>Read here...</a>")
@@ -50,10 +50,10 @@ SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
-MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
+MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), False)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-DELETE_TIME = int(environ.get('DELETE_TIME', 1600))
+DELETE_TIME = int(environ.get('DELETE_TIME', 21600))
 WORKING_MAIL_ID = environ.get("WORKING_MAIL_ID", None)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
